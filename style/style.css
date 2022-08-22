@@ -216,6 +216,9 @@ justify-content: center;
     display: flex;
     gap: 30px;
 }
+.work-item {
+    transform: relative;
+}
 .work-title {
     font-weight: 700;
 font-size: 36px;
@@ -224,6 +227,23 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 margin-bottom: 50px;
+}
+.work-text-top {
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: rgba(47, 48, 58, 0.8);
+position: absolute;
+bottom: 0;
+width: 100%;
+padding: 27px 0;
+}
+.work-top-wrap{
+    position: relative;
 }
 /* team */
 .team {
@@ -370,7 +390,7 @@ background-color: rgba(33, 150, 243, 0.9);;
 padding: 63px 24px;
 height: 100%;
 transform: translateY(100%);
-transition: transform 400ms linear;
+transition: transform 250ms linear;
 }
 .example-item:hover .example-top-text {
     transform: translateY(0);
