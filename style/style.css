@@ -103,7 +103,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
-padding: 32px 4px;
+padding: 32px 4px 33px 4px;
 }
 .header-contacts-link {
     display: flex;
@@ -119,8 +119,8 @@ color: var(--text-color);
     fill: #757575;
     align-self: center;
 }
-.navigator-link:hover .current,
-.navigator-link:focus .current {
+.navigator-link:hover,
+.navigator-link:focus {
     color: var(--brand-color);
 }
 .header-contacts-link:hover,
@@ -140,7 +140,7 @@ fill: var(--brand-color);
 .current::after {
     content: '';
     position: absolute;
-    height: 2px;
+    height: 4px;
     border-radius: 2px;
     width: 100%;
     background-color: var(--brand-color);
